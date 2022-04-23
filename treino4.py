@@ -1,0 +1,7 @@
+nome = input ('Qual é o seu nome?')
+idade = int (input ('Qual é a sua idade?'))
+mae = input ('Qual o nome da sua mãe?')
+idademae = int (input('Qual é a idade da sua mãe?'))
+pai = input ('Qual o nome do seu pai?')
+idadepai = int (input ('Qual a idade do seu pai?'))
+print ('Seu nome é',nome, ', tem',idade, ',sua mãe se chama',mae, ',a idade dela é',idademae, ',o nome do seu pai é',pai, ',e a idade dele é',idadepai,'. A soma das idades de vocês é igual a', (idade+idademae+idadepai))

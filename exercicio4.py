@@ -1,0 +1,16 @@
+y = input('Digite algo: ')
+print ('O tipo primitivo deste valor é: ', type(y))
+# a função input sempre retorna string, porque para que ela retorne em outro tipo primitivo (float, bool, int) é necessário fazer a conversar antes.
+print('y está em letras maiúsculas? ', y.isupper ())
+print('y utiliza números e letras? ', y.isalnum())
+# se for colocado espaço, a função alnum dará falso.
+print('y é um código ASCII? ', y.isascii())
+print('y é alfabético? ', y.isalpha())
+print('y é decimal? ', y.isdecimal())
+print('y é um dígito? ', y.isdigit())
+print('y é uma palavra-chave do python? ', y.isidentifier())
+print('y está em letras minúsculas? ', y.islower())
+print('y é um número? ', y.isnumeric())
+print('y é visível? ', y.isprintable())
+print('y foi digitado espaço ? ', y.isspace())
+print('y é apenas começado em letras maiúsculas? ', y.istitle())
